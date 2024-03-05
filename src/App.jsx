@@ -2,12 +2,16 @@ import { Canvas } from "@react-three/fiber";
 import Experience from "./components/Experience";
 
 import "./App.css";
+import { ScrollControls } from "@react-three/drei";
 
 function App() {
     return (
         <>
             <Canvas>
-                <Experience />
+                <color attach='background' args={["#ececec"]} />
+                <ScrollControls pages={5} damping={0.3}>
+                    <Experience />
+                </ScrollControls>
             </Canvas>
         </>
     );

@@ -1,6 +1,3 @@
-/* eslint-disable react/prop-types */
-/* eslint-disable react/no-unknown-property */
-import React, { useRef } from "react";
 import { useGLTF } from "@react-three/drei";
 
 function Cloud({ opacity, ...props }) {
