@@ -16,7 +16,12 @@ const Experience = () => {
                 <Airplane scale={[0.2, 0.2, 0.2]} rotation-y={Math.PI / 2} position-y={0.1} />
             </Float>
             <Cloud opacity={0.5} scale={[0.3, 0.3, 0.3]} position={[-3, 1, -3]} />
+
             <Cloud opacity={0.5} scale={[0.2, 0.3, 0.4]} position={[-1.5, -0.5, -2]} />
+            <Cloud opacity={0.5} scale={[0.2, 0.3, 0.4]} position={[-2, -0.8, -2]} />
+            <Cloud opacity={0.7} scale={[0.3, 0.3, 0.4]} rotation-y={[Math.PI / 9]} position={[2, -0.2, -2]} />
+            <Cloud opacity={0.7} scale={[0.4, 0.4, 0.4]} rotation-y={[Math.PI / 9]} position={[1, -0.2, -22]} />
+            <Cloud opacity={0.7} scale={[0.5, 0.5, 0.5]} rotation-y={[Math.PI / 9]} position={[-1, 1, -53]} />
         </>
     );
 };
